@@ -127,7 +127,7 @@ namespace StudentExercises
                 Console.Write($"{student.FirstName} {student.LastName} is working on the following exercises: ");
                 foreach (Exercise studentEx in student.StudentExerciseList)
                 {
-                    Console.Write($"{studentEx.Name}");
+                    Console.Write($"{studentEx.Name} ");
                 }
                 Console.WriteLine("");
             }
